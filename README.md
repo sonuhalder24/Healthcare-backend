@@ -28,7 +28,7 @@ Registers a new user.
   ```
 
 #### `POST /signin`
-Logs in a registered user using email and password.
+Logs in a registered user using username and password.
 - ✅ Success Response:
   ```json
   {
