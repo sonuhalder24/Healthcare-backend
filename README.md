@@ -45,7 +45,7 @@ Logs in a registered user using username and password.
 #### `GET /viewprofile/{userId}`
 Returns profile details of the specified user.
 
-#### `GET /editprofile/{userId}`
+#### `PUT /editprofile/{userId}`
 Returns editable profile details of the specified user.
 
 ---
@@ -117,7 +117,7 @@ JWT-based authentication middleware protects all endpoints **except**:
 ## 🛠️ Setup Instructions
 
 ### 💻 Software Requirements
-- Java Development Kit 8 (JDK 8)
+- Java Development Kit 17 (JDK 17)
 
 ### 📦 Installation
 
@@ -143,7 +143,7 @@ mvn clean test
 
 ## 📚 Tech Stack
 
-- Java 8
+- Java 17
 - Spring Boot
 - Spring Web
 - JWT (JSON Web Token)
@@ -153,12 +153,8 @@ mvn clean test
 
 ## ✅ Notes
 
-- Ensure your machine has Java 8 installed.
+- Ensure your machine has Java 17 installed.
 - Use Postman or similar tools to test endpoints with appropriate headers and JSON bodies.
 - JWT token must be passed in the `Authorization` header for protected endpoints.
 
 ---
-
-## 📌 Author
-
-Developed as part of a HackerRank backend development assessment.
